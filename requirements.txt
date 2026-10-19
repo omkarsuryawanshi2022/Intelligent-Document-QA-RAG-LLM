@@ -1,4 +1,5 @@
 # ===== Web framework =====
+
 streamlit==1.66.0
 streamlit_mic_recorder==0.0.8
 
@@ -17,4 +18,5 @@ gTTS==2.2.4
 # ===== Data / charts =====
 pandas==3.0.6
 numpy==2.5.4
+
 matplotlib==3.11.2
