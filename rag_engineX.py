@@ -12,6 +12,7 @@ from pypdf import PdfReader
 from google import genai
 
 
+
 class RAGEngine:
     """
     OS AI Agent RAG Engine (Lightweight for 512MB RAM)

@@ -30,7 +30,8 @@ APP_TITLE = "OS AI Agent"
 # Groq Configuration (uses OpenAI-compatible API)
 MODEL_PROVIDER = os.getenv("MODEL_PROVIDER", "groq").lower()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-LLM_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+
+LLM_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 client = OpenAI(
     api_key=GROQ_API_KEY if GROQ_API_KEY else "dummy",
