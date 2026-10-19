@@ -5,3 +5,6 @@ sentence-transformers
 ollama
 pandas
 plotly
+matplotlib
+gTTS
+streamlit-mic-recorder
