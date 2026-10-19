@@ -14,6 +14,7 @@ from gtts import gTTS
 from pypdf import PdfReader
 from streamlit_mic_recorder import speech_to_text
 
+
 # =====================================================
 # CONFIGURATION & PROVIDER
 # =====================================================
