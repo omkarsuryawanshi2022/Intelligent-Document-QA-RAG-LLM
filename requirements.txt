@@ -1,10 +1,20 @@
-streamlit
-chromadb
-pypdf
-sentence-transformers
-ollama
-pandas
-plotly
-matplotlib
-gTTS
-streamlit-mic-recorder
+# ===== Web framework =====
+streamlit==1.66.0
+streamlit_mic_recorder==0.0.8
+
+# ===== LLM provider (Groq via OpenAI-compatible API) =====
+openai==1.54.4
+
+# ===== RAG stack =====
+chromadb==1.5.9
+sentence-transformers==6.1.0
+pypdf==6.21.1
+
+# ===== Voice & TTS =====
+SpeechRecognition==3.17.0
+gTTS==2.2.4
+
+# ===== Data / charts =====
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2
