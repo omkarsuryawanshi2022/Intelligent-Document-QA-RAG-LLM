@@ -1,8 +1,10 @@
-.venv/
-venv/
 __pycache__/
 *.py[cod]
+venv/
+.venv/
+env/
 .env
-secrets.toml
+.env.*
 chroma_db/
-.cache/
+*.log
+.DS_Store

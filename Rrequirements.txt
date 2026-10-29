@@ -1,0 +1,7 @@
+streamlit
+numpy
+PyPDF2
+faiss-cpu
+requests
+streamlit-mic-recorder
+sentence-transformers
